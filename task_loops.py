@@ -17,6 +17,6 @@ print(h_names)
 
 words = ["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]
 
-first_letter_list = [word[0] for word in words]
+first_letter_list = [word[0].lower() for word in words]
 print(first_letter_list)
 
